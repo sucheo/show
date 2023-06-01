@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.green.showppingmall.product.ProductMapper">
+
+    <insert id="inspro">
+        Insert into t_product
+        (price,ctnt,nm,brand,mainpic)
+        values
+        (#{price},#{ctnt},#{nm},#{brand},#{main_pic})
+
+    </insert>
+
+</mapper>
